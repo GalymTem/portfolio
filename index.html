@@ -18,12 +18,11 @@
         .nav-link {
             color: white !important;
         }
-        .about-section {
+        .about-section, .hobbies-section, .projects-section {
             padding: 50px 0;
             text-align: center;
         }
         .hobbies-section {
-            padding: 50px 0;
             background-color: #f8f9fa;
         }
         .footer {
@@ -36,7 +35,6 @@
 </head>
 <body>
 
-
 <header class="header">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -48,6 +46,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
                     <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -58,8 +57,8 @@
 <section class="about-section" id="about">
     <div class="container">
         <h2>About Me</h2>
-        
-        <p>Hello, I am Temirlan Galymtayev. And I'm 18 years old student of AITU with high perspectives about live.</p>
+        <img class="card-img-top" src="itsmemario.jpg" alt="me">
+        <p>Hello, I am Temirlan Galymtayev. I'm an 18-year-old student at AITU with high perspectives about life.</p>
     </div>
 </section>
 
@@ -67,33 +66,30 @@
     <div class="container">
         <h2>Hobbies</h2>
         <div class="row">
-            
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img class="card-img-top" src="comics.jpg" alt="comics">
+                    <img class="card-img-top" src="comics.jpg" alt="Reading comics">
                     <div class="card-body">
-                        <h5 class="card-title">Reading comics</h5>
-                        <p class="card-text">It's a place where i can rest and activate imagination reading fascinating stories about my most favorite characters in variety of comics.</p>
+                        <h5 class="card-title">Reading Comics</h5>
+                        <p class="card-text">I rest and activate my imagination by reading fascinating stories about my favorite characters in a variety of comics.</p>
                     </div>
                 </div>
             </div>
-            
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img class="card-img-top" src="codeco.jpg" alt="Coding">
                     <div class="card-body">
                         <h5 class="card-title">Coding</h5>
-                        <p class="card-text">Coding is just becoming more and more not like just future job but more like a piece of my life.</p>
+                        <p class="card-text">Coding has become more than a future job for me; it is a part of my life.</p>
                     </div>
                 </div>
             </div>
-            
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img class="card-img-top" src="gamesgg.jpg" alt="games">
+                    <img class="card-img-top" src="gamesgg.jpg" alt="Playing games">
                     <div class="card-body">
                         <h5 class="card-title">Games</h5>
-                        <p class="card-text">Playing games is a great way to relieve stress, get some exercise, and enhance your skills.</p>
+                        <p class="card-text">Playing games is a great way to relieve stress, improve reflexes, and have fun with friends.</p>
                     </div>
                 </div>
             </div>
@@ -101,16 +97,32 @@
     </div>
 </section>
 
+<section class="projects-section" id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="proj.jpg" alt="Project Image">
+                    </div>
+                <p>The project that i made with my friends in first year is about order related cite, where you can add, cancel dishes or order place and much more.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <footer class="footer" id="contact">
     <div class="container">
-        <p>Contact me at: <a href="mailto:youremail@example.com">231456@astanait.edu.kz</a></p>
-        
+        <p>Contact me at: <a href="mailto:231456@astanait.edu.kz">231456@astanait.edu.kz</a></p>
+        <p>Follow me: 
+            <a href="https://www.linkedin.com/in/thomas-undefined-54a53b2ab/" class="text-white">LinkedIn</a> | 
+            <a href="https://www.instagram.com/jjcascat/" class="text-white">Instagram</a>
+        </p>
     </div>
 </footer>
 
-
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
